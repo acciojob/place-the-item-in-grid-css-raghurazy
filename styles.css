@@ -1,2 +1,19 @@
+.holder {
+    display: grid;                   
+    width: 200px;
+    height: 200px;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-template-rows: repeat(2, 1fr);     
+    gap: 0;                          
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
 
 /* Your CSS Code here. */
